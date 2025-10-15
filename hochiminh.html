@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="styles/2page.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
 </head>
 <style>
     .carousel {
@@ -32,14 +34,36 @@
     </nav>
     <section>
         <h1>Ho Chi Minh City</h1>
-        <div class="carousel">
-            <img src="images/ho chi min/things to do in hcmc.jpg" alt="Slide 1" />
-            <img src="images/ho chi min/things to do in hcmc-2.jpg" alt="Slide 2" />
-            <img src="images/ho chi min/things to do in hcmc-10.jpg" alt="Slide 3" />
-            <img src="images/ho chi min/things to do in hcmc-3.jpg" alt="Slide 4" />
-            <img src="images/ho chi min/things to do in hcmc-4.jpg" alt="Slide 5" />
-            <img src="images/ho chi min/things to do in hcmc-6.jpg" alt="Slide 7" />
+        <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="images/ho chi min/things to do in hcmc-10.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="images/ho chi min/things to do in hcmc-2.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="images/ho chi min/things to do in hcmc-3.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="images/ho chi min/things to do in hcmc-4.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="images/ho chi min/things to do in hcmc-6.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="images/ho chi min/things to do in hcmc.jpg" class="d-block w-100" alt="...">
+              </div>
             </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
         <p>Vibrating with energy, innovation and traffic – lots of traffic – Ho Chi Minh City, formerly known as Saigon, is the economic heart of Vietnam and the main hub of the southern region. A freewheeling, cosmopolitan metropolis, HCMC's dynamic cityscape draws together old and new Vietnam in the most compact of spaces, representing the city’s past as well as its future. This city has many well-known attractions, including the War Museum, Notre Dame Cathedral Basilica, and Ben Thanh Market.
             Let's dive into this guide and discover what to explore in this city to make your Ho Chi Minh City tour the most valuable!</p>
 
@@ -67,4 +91,5 @@
     </footer>
     
 </body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 </html>
